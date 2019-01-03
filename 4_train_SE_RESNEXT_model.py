@@ -695,8 +695,8 @@ def load_data(filepath):
 def denoiser_train(denoiser, lr):
 
 
-    with load_data(filepath='./dataset/transformed_data/protein_image_patches_pat_size_300_bat_size_8_9001_13000.npy') as data:
-        with load_data(filepath='./dataset/transformed_data/protein_image_classes_pat_size_300_bat_size_8_9001_13000.npy') as datay:
+    with load_data(filepath='./dataset/transformed_data/protein_image_patches_pat_size_300_bat_size_32_1001_10000.npy') as data:
+        with load_data(filepath='./dataset/transformed_data/protein_image_classes_pat_size_300_bat_size_32_1001_10000.npy') as datay:
 
 
             train_labels = pd.read_csv(
