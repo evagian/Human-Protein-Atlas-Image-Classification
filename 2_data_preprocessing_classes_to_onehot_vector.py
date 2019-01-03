@@ -15,7 +15,7 @@ sns.set()
 ############# image classes
 
 #import training data
-train_labels = pd.read_csv("./dataset/kaggle_protein_classes.csv")
+train_labels = pd.read_csv("../dataset/kaggle_protein_classes.csv")
 train_labels.shape[0]
 
 label_names = {
@@ -65,5 +65,5 @@ train_labels = train_labels.apply(fill_targets, axis=1)
 print(train_labels.head())
 print(train_labels.shape)
 
-train_labels.to_csv('./dataset/kaggle_protein_classes_augmented_one_hot.csv', sep=',', encoding='utf-8')
+train_labels.to_csv('../dataset/kaggle_protein_classes_augmented_one_hot.csv', sep=',', encoding='utf-8')
 
