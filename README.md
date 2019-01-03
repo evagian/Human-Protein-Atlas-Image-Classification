@@ -71,11 +71,13 @@ The labels are represented as integers that map to the following:
 25.  Cytosol   
 26.  Cytoplasmic bodies   
 27.  Rods & rings  
-File descriptions
-train.csv - filenames and labels for the training set.
-sample_submission.csv - filenames for the test set, and a guide to constructing a working submission.
-train.zip - All images for the training set.
-test.zip - All images for the test set.
-Data fields
-Id - the base filename of the sample. As noted above all samples consist of four files - blue, green, red, and yellow.
-Target - in the training data, this represents the labels assigned to each sample.
+
+## File descriptions
+1. train.csv - filenames and labels for the training set.
+2. sample_submission.csv - filenames for the test set, and a guide to constructing a working submission.
+3. train.zip - All images for the training set.
+4. test.zip - All images for the test set.
+
+## Data fields
+1. Id - the base filename of the sample. As noted above all samples consist of four files - blue, green, red, and yellow.
+2. Target - in the training data, this represents the labels assigned to each sample.
