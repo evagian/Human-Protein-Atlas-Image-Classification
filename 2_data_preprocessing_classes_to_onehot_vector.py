@@ -65,5 +65,5 @@ train_labels = train_labels.apply(fill_targets, axis=1)
 print(train_labels.head())
 print(train_labels.shape)
 
-train_labels.to_csv('./dataset/transformed_data/one-hot-matrix-classes.csv', sep=',', encoding='utf-8')
+train_labels.to_csv('./dataset/kaggle_protein_classes_augmented_one_hot.csv', sep=',', encoding='utf-8')
 
