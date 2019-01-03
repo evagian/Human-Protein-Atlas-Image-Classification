@@ -101,7 +101,7 @@ def multi_label_hot(prediction, threshold=0.5):
 
 
 def focal_loss(prediction_tensor, target_tensor, weights=None, alpha=0.25, gamma=2):
-    r"""Compute focal loss for predictions.
+    """Compute focal loss for predictions.
         Multi-labels Focal loss formula:
             FL = -alpha * (z-p)^gamma * log(p) -(1-alpha) * p^gamma * log(1-p)
                  ,which alpha = 0.25, gamma = 2, p = sigmoid(x), z = target_tensor.
